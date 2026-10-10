@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "for p in python3 python py; do if \"$p\" -c 'import sys; sys.exit(sys.version_info < (3, 9))' >/dev/null 2>&1; then exec \"$p\" \"${CLAUDE_PLUGIN_ROOT}/scripts/google_apis.py\" check; fi; done; echo 'google-marketing-apis: Python 3.9+ not found, skipping Google API check.'",
+            "timeout": 90,
+            "statusMessage": "Checking Google API connections..."
+          }
+        ]
+      }
+    ]
+  }
+}

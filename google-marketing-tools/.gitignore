@@ -1,0 +1,5 @@
+# Never commit Google credentials
+client_secret*.json
+token.json
+config.json
+__pycache__/

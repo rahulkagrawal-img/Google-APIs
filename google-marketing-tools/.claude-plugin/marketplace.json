@@ -1,0 +1,17 @@
+{
+  "name": "google-marketing-tools",
+  "owner": {
+    "name": "Sacred Weaves"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for working with Google marketing APIs."
+  },
+  "plugins": [
+    {
+      "name": "google-marketing-apis",
+      "source": "./plugins/google-marketing-apis",
+      "description": "Connect Claude Code to Google Search Console, GA4, Merchant Center and Google Ads with your own free Google Cloud project.",
+      "version": "1.0.0"
+    }
+  ]
+}

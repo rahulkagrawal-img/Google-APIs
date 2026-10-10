@@ -1,0 +1,10 @@
+{
+  "name": "google-marketing-apis",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to Google Search Console, GA4, Merchant Center and Google Ads with your own free Google Cloud project. Includes guided setup, a switchable session-start connection check, and a data skill for querying all four APIs.",
+  "author": {
+    "name": "Sacred Weaves"
+  },
+  "license": "MIT",
+  "keywords": ["google", "search-console", "ga4", "google-analytics", "merchant-center", "google-ads", "seo", "marketing"]
+}
